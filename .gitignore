@@ -1,0 +1,5 @@
+*.tgz
+*.o
+*.output
+*.cc
+*.hh
