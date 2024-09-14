@@ -4,17 +4,17 @@ Taken with [Drew Davidson](https://web.archive.org/web/20240708084650/https://ee
 
 ## Lab Grades
 
-| Lab                                                                                      | Grade               |
-| ---------------------------------------------------------------------------------------- | ------------------- |
-| [Lab 1 - Flex](http://web.archive.org/web/20240909003250/https://compilers.cool/?lab=1)  | N/A (not completed) |
-| [Lab 2 - Bison](http://web.archive.org/web/20240909002924/https://compilers.cool/?lab=2) |                     |
-| [Lab 3 - Graphviz]()                                                                                    |                     |
-| [4]()                                                                                    |                     |
-| [5]()                                                                                    |                     |
-| [6]()                                                                                    |                     |
-| [7]()                                                                                    |                     |
-| [8]()                                                                                    |                     |
-| [9]()                                                                                    |                     |
+| Lab                                                                                          | Grade               |
+| -------------------------------------------------------------------------------------------- | ------------------- |
+| [Lab 1 - Flex](http://web.archive.org/web/20240909003250/https://compilers.cool/?lab=1)      | N/A (not completed) |
+| [Lab 2 - Bison](http://web.archive.org/web/20240909002924/https://compilers.cool/?lab=2)     |                     |
+| [Lab 3 - Graphviz](https://web.archive.org/web/20240909204916/https://compilers.cool/?lab=3) |                     |
+| [4]()                                                                                        |                     |
+| [5]()                                                                                        |                     |
+| [6]()                                                                                        |                     |
+| [7]()                                                                                        |                     |
+| [8]()                                                                                        |                     |
+| [9]()                                                                                        |                     |
 
 ## Dragon Trials
 
