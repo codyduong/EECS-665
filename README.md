@@ -6,9 +6,9 @@ Taken with [Drew Davidson](https://web.archive.org/web/20240708084650/https://ee
 
 | Lab                                                                                      | Grade               |
 | ---------------------------------------------------------------------------------------- | ------------------- |
-| [Lab 1 - Flex](/web/20240909003250/https://compilers.cool/?lab=1)                        | N/A (not completed) |
+| [Lab 1 - Flex](http://web.archive.org/web/20240909003250/https://compilers.cool/?lab=1)  | N/A (not completed) |
 | [Lab 2 - Bison](http://web.archive.org/web/20240909002924/https://compilers.cool/?lab=2) |                     |
-| [3]()                                                                                    |                     |
+| [Lab 3 - Graphviz]()                                                                                    |                     |
 | [4]()                                                                                    |                     |
 | [5]()                                                                                    |                     |
 | [6]()                                                                                    |                     |
@@ -22,6 +22,6 @@ Taken with [Drew Davidson](https://web.archive.org/web/20240708084650/https://ee
 | ------------------------------- | ----- |
 | [Trial 1 - Scanner/Generator]() |       |
 
-
 ## Project
+
 The compiler project is in a seperate repository here: https://github.com/codyduong/A
