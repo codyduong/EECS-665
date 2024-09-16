@@ -1,0 +1,9 @@
+dist-*
+lexer.hs
+*.hi
+*.o
+dragonlex*
+!dragonlex.hs
+!dragonlex.cabal
+lexer*
+*.tokens

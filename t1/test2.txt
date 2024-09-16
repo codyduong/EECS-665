@@ -1,0 +1,9 @@
+"Hello, World!"
+'a'
+colour color
+cat dog
+ab abab
+abc abbbc
+aXb
+12345
+hello
