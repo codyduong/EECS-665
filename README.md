@@ -18,9 +18,9 @@ Taken with [Drew Davidson](https://web.archive.org/web/20240708084650/https://ee
 
 ## Dragon Trials
 
-| Dragon Trial                    | Grade |
-| ------------------------------- | ----- |
-| [Trial 1 - Scanner/Generator]() |       |
+| Dragon Trial                                                                                               | Grade |
+| ---------------------------------------------------------------------------------------------------------- | ----- |
+| [Trial 1 - Scanner/Generator](http://web.archive.org/web/20240911000611/https://compilers.cool/trials/t1/) |       |
 
 ## Project
 

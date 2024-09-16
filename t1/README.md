@@ -14,5 +14,3 @@ make test
 
 As a retrospective I wanted to use `Rust` but there were way too many headaches, too burdened by type system. Plus I couldn't
 really figure out a good way to generate the rust intermediatery code and then the final compilation in a satisfying manner.
-
-There are a lot of artifacts as well. I kind of forgot `cabal` does all that... Whatever.
