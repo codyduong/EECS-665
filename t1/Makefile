@@ -1,13 +1,19 @@
+all: clean build run test
+.PHONY: all clean build run test
+
 build:
-	cabal exec ghc -- -o dragonlex dragonlex.hs
+	cabal build exe:dragonlex
+	cp `cabal exec -- which dragonlex` ./dragonlex
 
 run:
-	./dragonlex B.spec
-	cabal exec ghc -- -o lexer lexer.hs
+	./dragonlex A.spec
+	cabal build exe:lexer
+	cp `cabal exec -- which lexer` ./lexer
 
 test:
-	# ./lexer test1.txt > test1.tokens
-	./lexer test2.txt
+	# ./lexer test1.txt
+	./lexer test.txt > test.tokens
 
 clean:
+	cabal clean
 	rm -f dragonlex lexer lexer.hs *.tokens *.o *.hi

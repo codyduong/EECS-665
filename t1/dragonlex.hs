@@ -48,7 +48,7 @@ main = do
 
 -- Parsing the specification file
 parseSpecLines :: [String] -> Either String [Rule]
-parseSpecLines lines = parseLines lines 1 []
+parseSpecLines specLines = parseLines specLines (1 :: Int) []
     where
         parseLines [] _ acc = Right (reverse acc)
         parseLines (line:rest) lineNum acc =
@@ -67,7 +67,7 @@ parseSpecLine line =
 -- we need to extract REGEX which could contain whitespace as valid chars
 -- and distinguish it from the whitespace seperator from ACTION
 extractRegex :: String -> (String, String)
-extractRegex line = extractRegex' line 0 0 ""
+extractRegex line = extractRegex' line (0 :: Int) (0 :: Int) ""
     where
         extractRegex' [] parenCount bracketCount acc =
             if parenCount == 0 && bracketCount == 0 then
@@ -91,7 +91,7 @@ actionParser :: ReadP Action
 actionParser = skipSpaces >> (
     (string "(SKIP)" >> return Skip)
     <|> (do
-        string "(ERR)"
+        _ <- string "(ERR)"
         skipSpaces
         msg <- quotedStringParser
         return (ErrorAction msg)
@@ -107,7 +107,7 @@ actionParser = skipSpaces >> (
 
 quotedStringParser :: ReadP String
 quotedStringParser = do
-    char '"'
+    _ <- char '"'
     str <- manyTill (satisfy (\c -> c /= '"')) (char '"')
     return str
 

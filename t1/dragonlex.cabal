@@ -18,8 +18,6 @@ common warnings
 executable dragonlex
     import:           warnings
     main-is:          dragonlex.hs
-    -- other-modules:
-    -- other-extensions:
     build-depends:    base ^>=4.17.2.1
     hs-source-dirs:   .
     default-language: Haskell2010
@@ -28,4 +26,5 @@ executable lexer
     main-is:          lexer.hs
     build-depends:    base ^>=4.17.2.1,
                       regex-tdfa
+    hs-source-dirs:   .
     default-language: Haskell2010

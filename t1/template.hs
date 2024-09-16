@@ -4,6 +4,7 @@
 -- note that i don't say it because then it would be replaced... just read dragonlex.hs
 
 {-# LANGUAGE OverloadedStrings #-}
+{-# LANGUAGE FlexibleContexts #-}
 import System.Environment
 import System.IO
 import Data.Char

@@ -1,7 +1,7 @@
 # t1
 
 ```
-make clean # dragonlex does not overwrite lexer.hs, so remove it first
+make clean
 make build
 make run
 make test
