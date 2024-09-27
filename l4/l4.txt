@@ -1,0 +1,19 @@
+What is the #line directive? Give an example where the directive might be useful.
+The #line directive changes the current line number and filename for error messages and debugging output. Useful in generated code to maintain accurate line numbers when reporting errors, for example, bison and flex are code generators
+which may use this directive to accurately report error messages.
+
+What are the __LINE__ and __FILE__ macros? Give an example of how they might be useful.
+The __LINE__ macro represents the current line number, and __FILE__ represents the current file name. `fprintf(stderr, "Error at %s:%d\n", __FILE__, __LINE__);.`
+
+Give an example of a preprocessor macro that you define that takes an argument. Typically, the use of such macros is discouraged. Why might that be?
+`#define SQUARE(x) ((x) * (x))`
+Using macros like this can lead to unexpected behavior due to operator precedence and side effects, making code harder to debug and maintain compared to inline functions.
+
+What is the command-line option to make g++ print the preprocessed output to standard out?
+`-E`
+
+Describe what the # operator does by explaining the output of the following program:
+This program will output `a+b*c`, since the # preprocessor will stringify the expression.
+
+What is the command-line option to make g++ compile the following program so that it prints "bye" to std::cerr when run?
+`g++ -DVERBOSE -DOUTMODE=0 yourfile.cpp`, will set the `VERBOSE` and `OUTMODE` definitions for g++. 

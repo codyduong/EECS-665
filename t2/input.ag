@@ -1,0 +1,23 @@
+S ::= A #4
+A ::= #1
+A ::= B A #2
+B ::= #3 num
+%%
+#include <iostream>
+#include <stack>
+std::stack<int> semStack;
+int pop(){
+	// the input.ag specified on the website uses front? that doesn't work...
+	// int res = semStack.front();
+	int res = semStack.top();
+	semStack.pop();
+	return res;
+
+	// action rule 3 was also modified because i use look which is a string,
+	// not a char array, so it was modified to support this.
+}
+%%
+#1 { semStack.push(0); }
+#2 { int t2 = pop(); int t1 = pop(); semStack.push(t1 + t2); }
+#3 { int t = atoi(look.c_str()); semStack.push(t); }
+#4 { int t = pop(); std::cout << "Sum is " << t << "\n"; }

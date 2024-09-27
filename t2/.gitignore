@@ -1,0 +1,6 @@
+*.hi
+*.o
+lexer*
+dragonsdt*
+!dragonsdt.hs
+translator*
