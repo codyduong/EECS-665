@@ -18,10 +18,10 @@ Taken with [Drew Davidson](https://web.archive.org/web/20240708084650/https://ee
 
 ## Dragon Trials
 
-| Dragon Trial                                                                                               | Grade |
-| ---------------------------------------------------------------------------------------------------------- | ----- |
-| [Trial 1 - Scanner/Generator](http://web.archive.org/web/20240911000611/https://compilers.cool/trials/t1/) |       |
-| [Trial 2 - Syntax Directed Translator-Generator]                                                           |       |
+| Dragon Trial                                                                                                                  | Grade |
+| ----------------------------------------------------------------------------------------------------------------------------- | ----- |
+| [Trial 1 - Scanner/Generator](http://web.archive.org/web/20240911000611/https://compilers.cool/trials/t1/)                    |       |
+| [Trial 2 - Syntax Directed Translator-Generator](http://web.archive.org/web/20240927231352/https://compilers.cool/trials/t2/) |       |
 
 ## Project
 
