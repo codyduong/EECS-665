@@ -2,7 +2,7 @@ import Control.Monad
 import Data.Char
 import Data.List
 import Data.Map (Map)
-import Data.Map qualified as Map
+import qualified Data.Map as Map
 import Data.Maybe
 import System.Environment
 import System.Exit (exitFailure, exitSuccess)
