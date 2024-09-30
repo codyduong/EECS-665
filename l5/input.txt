@@ -1,0 +1,2 @@
+calculate v 1+2*3
+orate v

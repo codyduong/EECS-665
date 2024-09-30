@@ -3,3 +3,4 @@
 *.output
 *.cc
 *.hh
+.driver.cpp.swp
