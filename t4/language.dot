@@ -1,0 +1,17 @@
+digraph G {
+  0 [label="State 0\nA ->  • B\\nA ->  • ε\\nA -> ε • \\nA' ->  • A\\nB ->  • C\\nB ->  • hello\\nB ->  • w o rld\\n", shape=box];
+  1 [label="State 1\nA -> B • \\n", shape=box];
+  2 [label="State 2\nA' -> A • \\n", shape=box];
+  3 [label="State 3\nB -> C • \\n", shape=box];
+  4 [label="State 4\nB -> hello • \\n", shape=box];
+  5 [label="State 5\nB -> w • o rld\\n", shape=box];
+  6 [label="State 6\nB -> w o • rld\\n", shape=box];
+  7 [label="State 7\nB -> w o rld • \\n", shape=box];
+  0 -> 2 [label="A"];
+  0 -> 1 [label="B"];
+  0 -> 3 [label="C"];
+  0 -> 4 [label="hello"];
+  0 -> 5 [label="w"];
+  5 -> 6 [label="o"];
+  6 -> 7 [label="rld"];
+}

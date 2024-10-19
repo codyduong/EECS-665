@@ -20,8 +20,10 @@ Taken with [Drew Davidson](https://web.archive.org/web/20240708084650/https://ee
 
 | Dragon Trial                                                                                                                  | Grade |
 | ----------------------------------------------------------------------------------------------------------------------------- | ----- |
-| [Trial 1 - Scanner/Generator](http://web.archive.org/web/20240911000611/https://compilers.cool/trials/t1/)                    |       |
+| [Trial 1 - Scanner-Generator](http://web.archive.org/web/20240911000611/https://compilers.cool/trials/t1/)                    |       |
 | [Trial 2 - Syntax Directed Translator-Generator](http://web.archive.org/web/20240927231352/https://compilers.cool/trials/t2/) |       |
+| [Trial 3 - Parser-Generator BNF -> SLR](https://compilers.cool/trials/t3/)                                                    |       |
+| [Trial 4 - Parser-Generator BNF -> dot](https://compilers.cool/trials/t4/)                                                    |       |
 
 ## Project
 
