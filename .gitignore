@@ -4,3 +4,5 @@
 *.cc
 *.hh
 .driver.cpp.swp
+*.d
+*.dot

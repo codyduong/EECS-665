@@ -1,0 +1,67 @@
+# Valid global variable declaration
+x : int;
+
+# Valid function declaration with parameters and return type
+main : (argc: int, argv: int) -> int {
+    # Valid local variable declaration
+    result : int;
+    result = argc;
+    return result;
+}
+
+# Variable declared with invalid type (void)
+invalidVar : void;  # Error: Invalid type in declaration
+
+# Variable declared multiple times in the same scope
+duplicateVar : int;
+duplicateVar : bool;  # Error: Multiply declared identifier
+
+# Function with parameters declared multiple times
+funcWithDupParams : (param: int, param: bool) -> void {  # Error on second 'param': Multiply declared identifier
+    return;
+}
+
+# Use of undeclared variable (this is not allowed syntax in A)
+# undeclaredVar = 5;  # Error: Undeclared identifier
+
+# Variable declared as void and multiply declared
+voidAndDuplicate : void;  # Error: Invalid type in declaration
+voidAndDuplicate : int;   # Error: Multiply declared identifier
+
+# Variable declared in inner scope, same name as outer scope
+outerVar : int;
+someFunction : () -> void {
+    outerVar : bool;  # Error: Multiply declared identifier (if same scope considered)
+    innerVar : int;
+    innerVar : int;   # Error: Multiply declared identifier
+}
+
+# Use of undeclared function (this is not allowed syntax in A)
+# callUndeclaredFunction();  # Error: Undeclared identifier
+
+# Valid class definition
+MyClass : custom {
+    memberVar : int;
+    memberFunc : () -> void {
+        return;
+    }
+};
+
+# Class with member variable declared multiple times
+AnotherClass : custom {
+    memberVar : int;
+    memberVar : bool;  # Error: Multiply declared identifier
+};
+
+# Function with variable declared as void inside
+funcWithInvalidVar : () -> void {
+    invalidLocalVar : void;  # Error: Invalid type in declaration
+}
+
+# Valid usage of variables and function calls
+validFunc : () -> void {
+    localVar : int;
+    localVar = 10;
+    main(localVar, "test");
+    return;
+}
