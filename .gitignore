@@ -1,4 +1,5 @@
 *.tgz
+*.tar.gz
 *.o
 *.output
 *.cc
