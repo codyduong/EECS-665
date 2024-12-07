@@ -1,0 +1,26 @@
+== Part 2
+
+1. info registers rax
+
+2. x /g $rax
+
+3. set $rax = <value>
+
+4. info registers
+
+== Part 3
+
+The https://compilers.cool/materials/prog does not have the program... As such I was unable to answer it, but here the
+commands I would've needed to use:
+
+1. `p/x $rbp - $rsp`
+
+2. `x/gx $rbp+8`
+
+3. `x/gx $rbp-8`
+
+4. ```
+   objdump -D prog | grep GBL
+   x/gx <address of GBL>
+   ```
+   
