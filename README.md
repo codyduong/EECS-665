@@ -16,10 +16,10 @@ Taken with [Drew Davidson](https://web.archive.org/web/20240708084650/https://ee
 | [Lab 8 - Undefined Behavior](https://web.archive.org/web/20241207053407/https://compilers.cool/?lab=8)       | N/A (not completed)      |
 | [Lab 9 - VTables](https://web.archive.org/web/20241207053414/https://compilers.cool/?lab=10)                 | 6/6                      |
 | [Lab 10 - X64 by Hand](https://web.archive.org/web/20241207053419/https://compilers.cool/?lab=11)            | N/A (not completed)      |
-| [Lab 11 - Buffer Overflows](https://web.archive.org/web/20241207053423/https://compilers.cool/?lab=12)       |                          |
-| [Lab 12 - X64 Debugging](http://web.archive.org/web/20241207054129/https://compilers.cool/?lab=13)           |                          |
+| [Lab 11 - Buffer Overflows](https://web.archive.org/web/20241207053423/https://compilers.cool/?lab=12)       | 6/6                      |
+| [Lab 12 - X64 Debugging](http://web.archive.org/web/20241207054129/https://compilers.cool/?lab=13)           | N/A (not completed)      |
 | [Lab 13 - Obsfucation](https://web.archive.org/web/20241207053430/https://compilers.cool/?lab=14)            | N/A (not completed)      |
-| [Lab 14 - LLVM](http://web.archive.org/web/20241207054206/https://compilers.cool/?lab=15)                    |                          |
+| [Lab 14 - LLVM](http://web.archive.org/web/20241207054206/https://compilers.cool/?lab=15)                    | N/A (not completed)      |
 
 ## Project
 
@@ -31,10 +31,10 @@ Taken with [Drew Davidson](https://web.archive.org/web/20240708084650/https://ee
 | [Part 1 - Lexer](https://web.archive.org/web/20240909233416/https://compilers.cool/projects/p1/)           | 34/50 |
 | [Part 2 - Parser](https://web.archive.org/web/20241116034526/https://compilers.cool/projects/p2/)          | 50/50 |
 | [Part 3 - Unparser](https://web.archive.org/web/20241116034543/https://compilers.cool/projects/p3/)        | 29/50 |
-| [Part 4 - Name Analysis](https://web.archive.org/web/20241116032744/https://compilers.cool/projects/p4/)   |       |
-| [Part 5 - Type Analysis](https://web.archive.org/web/20241116032850/https://compilers.cool/projects/p5/)   |       |
-| [Part 6 - 3AC](http://web.archive.org/web/20240909160644/https://compilers.cool/projects/p6/)              |       |
-| [Part 7 - Linking/Assembly](http://web.archive.org/web/20241207053141/https://compilers.cool/projects/p7/) |       |
+| [Part 4 - Name Analysis](https://web.archive.org/web/20241116032744/https://compilers.cool/projects/p4/)   | 50/50 |
+| [Part 5 - Type Analysis](https://web.archive.org/web/20241116032850/https://compilers.cool/projects/p5/)   | 29/50 |
+| [Part 6 - 3AC](http://web.archive.org/web/20240909160644/https://compilers.cool/projects/p6/)              | 47/50 |
+| [Part 7 - Linking/Assembly](http://web.archive.org/web/20241207053141/https://compilers.cool/projects/p7/) | 25/50 |
 
 ## Dragon Trials
 
